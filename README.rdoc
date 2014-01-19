@@ -1,0 +1,3 @@
+= Yougoshu
+
+RedmineにRemdine.JPさんのRedmine用語解説の各項目へのリンクを埋め込む。

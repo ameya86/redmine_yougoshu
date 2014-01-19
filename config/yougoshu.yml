@@ -1,0 +1,5 @@
+url: "http://redmine.jp/glossary/"
+default: 'account-menu,top-menu,project,my-page'
+issues:
+  default: 'issue,tracker,watch,watcher,issue-watcher'
+  new: 'issue-watcher,tracker,watch,watcher'
