@@ -1,5 +1,197 @@
 url: "http://redmine.jp/glossary/"
-default: 'account-menu,top-menu,project,my-page'
+default:
+- account-menu
+- top-menu
+- project
+- my-page
+account:
+  default:
+  - user
+activities:
+  default:
+  - activity
+admin:
+  default:
+  - administrator
+  index:
+  - custom-field
+  - group
+  - status
+  - theme
+  - tracker
+  - project
+  - priority
+  - user
+  - enumeration
+  - role
+  - workflow
+  projects: 
+  - project
+boards:
+  default: 
+  - board
+calendars:
+  default: 
+  - calendar
+  - issue
+custom_fields:
+  default: 
+  - custom-field
+  - role
+  - tracker
+  - project
+  index: 
+  - user
+  - issue
+  - group
+  - version
+  - priority
+documents:
+  default:
+  - document
+enumerations:
+  default: 
+  - enumeration
+  - priority
+  - document
+files:
+  default: 
+  - file
+  - version
+gantts:
+  default: 
+  - gantt
+  - issue
+groups:
+  default: 
+  - user
+  - group
+issue_categories:
+  default: 
+  - issue
 issues:
-  default: 'issue,tracker,watch,watcher,issue-watcher'
-  new: 'issue-watcher,tracker,watch,watcher'
+  default: 
+  - issue
+  - tracker
+  - watch
+  - watcher
+  - issue-watcher
+  - status
+  - priority
+  - target-version
+  - version
+  - custom-field
+  - category
+  - user
+  - group
+  - related-issue
+  - member
+  - mail-notification
+  - workflow
+  index: 
+  - calendar
+  - gantt
+issue_statises:
+  default: 
+  - issue
+  - status
+messages:
+  default: 
+  - board
+my:
+  page: 
+  - my-page
+news:
+  default: 
+  - news
+projects:
+  default: 
+  - project
+  settings: 
+  - member
+  - role
+  - user
+  - group
+  - custom-field
+  - repoerter
+  - version
+  - tracker
+  - manager
+  - developer
+  - category
+  new: 
+  - custom-field
+  - tracker
+  show: 
+  - activity
+  - calendar
+  - gantt
+  - news
+  - file
+  - board
+  - document
+  - roadmap
+queries:
+  default: 
+  - issue
+  - project
+  - tracker
+  - status
+  - priority
+  - custom-field
+  - category
+  - target-version
+  - version
+reports:
+  default: 
+  - issue
+  - tracker
+  - status
+roles:
+  default: 
+  - role
+  - reporter
+  - developer
+  - manager
+search:
+  default: 
+  - issue
+  - board
+timelog:
+  default: 
+  - issue
+trackers:
+  default: 
+  - tracker
+  - custom-field
+  - project
+  - role
+users:
+  default: 
+  - user
+versions:
+  default: 
+  - target-version
+  - version
+  - issue
+  - tracker
+welcome:
+  default: 
+  - account-menu
+  - top-menu
+  - project
+  - my-page
+wiki:
+  default: 
+  - watch
+  - watcher
+wikis:
+  default: 
+  - watch
+  - watcher
+workflows:
+  default: 
+  - workflow
+  - status
+  - tracker
+  - role

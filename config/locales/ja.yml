@@ -1,12 +1,41 @@
 ja:
   label_redmine_yougoshu: 用語集
-  label_redmine_yougoshu_issue: チケット
-  label_redmine_yougoshu_issue_watcher: チケットのウォッチャ
+  label_redmine_yougoshu_account_menu: アカウントメニュー
   label_redmine_yougoshu_watch: ウォッチャ
   label_redmine_yougoshu_watcher: ウォッチャー
+  label_redmine_yougoshu_developer: 開発者
+  label_redmine_yougoshu_custom_field: カスタムフィールド
+  label_redmine_yougoshu_activity: 活動
+  label_redmine_yougoshu_category: カテゴリ
+  label_redmine_yougoshu_calendar: カレンダー
+  label_redmine_yougoshu_manager: 管理者 
+  label_redmine_yougoshu_related_issue: 関連するチケット
+  label_redmine_yougoshu_gantt: ガントチャート
+  label_redmine_yougoshu_group: グループ
+  label_redmine_yougoshu_administrator: システム管理者
+  label_redmine_yougoshu_status: ステータス
+  label_redmine_yougoshu_target_version: 対象バージョン
+  label_redmine_yougoshu_issue: チケット
+  label_redmine_yougoshu_issue_watcher: チケットのウォッチャー
+  label_redmine_yougoshu_theme: テーマ
+  label_redmine_yougoshu_anonymous: 匿名ユーザ
   label_redmine_yougoshu_top_menu: トップメニュー
-  label_redmine_yougoshu_account_menu: アカウントメニュー
-  label_redmine_yougoshu_project_menu: プロジェクトメニュー
-  label_redmine_yougoshu_my_page: マイページ
-  label_redmine_yougoshu_project: プロジェクト
   label_redmine_yougoshu_tracker: トラッカー
+  label_redmine_yougoshu_news: ニュース
+  label_redmine_yougoshu_version: バージョン
+  label_redmine_yougoshu_non_member: 非メンバー
+  label_redmine_yougoshu_file: ファイル
+  label_redmine_yougoshu_board: フォーラム
+  label_redmine_yougoshu_document: 文書
+  label_redmine_yougoshu_project: プロジェクト
+  label_redmine_yougoshu_project_menu: プロジェクトメニュー
+  label_redmine_yougoshu_reporter: 報告者
+  label_redmine_yougoshu_my_page: マイページ
+  label_redmine_yougoshu_member: メンバー
+  label_redmine_yougoshu_mail_notification: メール通知
+  label_redmine_yougoshu_priority: 優先度
+  label_redmine_yougoshu_user: ユーザー
+  label_redmine_yougoshu_enumeration: 列挙項目
+  label_redmine_yougoshu_roadmap: ロードマップ
+  label_redmine_yougoshu_role: ロール
+  label_redmine_yougoshu_workflow: ワークフロー

@@ -1,0 +1,20 @@
+<% 
+yougo = RedmineYougoshu::Yougoshu.current_items(controller_name, action_name)
+yougo_url = RedmineYougoshu::Yougoshu.url
+%>
+
+<div style="clear: both;"></div>
+</div><%# <div id="content">を閉じてしまう %>
+
+<div>
+  <ul>
+    <li><%= link_to(l(:label_redmine_yougoshu), yougo_url) %></li>
+    <ul>
+    <% yougo.each do |name| %>
+      <li style="float: left; width: 150px;">
+        <%= link_to(l("label_redmine_yougoshu_#{name.gsub('-', '_')}"), "#{yougo_url}#{name[0]}/#{name}", :target => '_blank') %>
+      </li>
+    <% end %>
+    </ul>
+  </ul>
+<%# 本来の <div id="content"> を閉じるための </div> で上のdivタグを閉じる %>
